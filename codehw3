@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<ul> 
+<?php
+
+/* Put the following book data into a multi-dimensional array, then use your array to print out the books on the web page 
+in an attractive table (e.g. you may want to color alternating rows differently, etc.)  Somewhere on your page, you 
+should also include the total price, if the user were to purchase all the books listed, e.g. example output (style your table 
+as you wish): 
+Book Data (title, author, number of pages, type, price) 
+PHP and MySQL Web Development 
+Luke Welling 
+144 
+Paperback 
+$31.63  
+Web Design with HTML, CSS, JavaScript and jQuery 
+Jon Duckett 
+135 
+Paperback 
+$41.23 
+PHP Cookbook: Solutions & Examples for PHP Programmers 
+David Sklar 
+14 
+Paperback 
+$40.88 
+JavaScript and JQuery: Interactive Front-End Web Development 
+Jon Duckett 
+251 
+Paperback 
+$22.09 
+Modern PHP: New Features and Good Practices 
+Josh Lockhart 
+7 
+Paperback 
+$28.49 
+Programming PHP 
+Kevin Tatroe 
+26 
+Paperback 
+$28.96 */
+
+$cars = array (
+  array("Volvo",22,18),
+  array("BMW",15,13),
+  array("Saab",5,2),
+  array("Land Rover",17,15),
+);
+
+/*Repeat the coin exercise from HW2, but modify your program to 1) be a function that takes one argument – the number 
+of heads in a row you'd like to flip and then 2) modify your code to use this argument to allow a variable number of 
+heads in a row to be chosen. E.g.  coinToss(8); will flip the coin until 8 heads in a row are obtained.   
+You should print out the number of heads in a row you are seeking and the total number of flips it took. */
+
+
+
+?>
+</ul>
+</body>
+</html>
